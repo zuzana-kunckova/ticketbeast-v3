@@ -1,4 +1,4 @@
-##Description of the errors
+## Description of the errors
 
 Followed instructions until adding the relevant columns to the database (Getting to Green: 07:08). From there on:
 
@@ -23,12 +23,12 @@ Added new Route and pointed it to `ConcertsController@show`.
 Created ConcertsController. 
 
 - Adam’s error - ‘show method does not exist’
-- My error - InvalidArgumentException Failed asserting that 404 page contains The Red Chord.  
+- My error - InvalidArgumentException Failed asserting that 404 page contains The Red Chord
 
 Added `show` method in the ConcertsController.
 
 - Adam’s error - The current node list is empty
-- My error - Failed asserting that ' ' contains "The Red Chord”.
+- My error - Failed asserting that ' ' contains "The Red Chord”
 
 Returned `concerts.show` view.
 
@@ -38,7 +38,7 @@ Returned `concerts.show` view.
 Created concerts folder and show.blade.php file
 
 - Adam’s error - The current node list is empty
-- My error - Failed asserting that ' ' contains "The Red Chord".
+- My error - Failed asserting that ' ' contains "The Red Chord"
 
 Added `<h1>{{ $concert->title }}</h1>` to show.blade.php
 
@@ -55,4 +55,4 @@ Defined `$concert = Concert::find($id);` in the ConcertsController
 - Adam’s error: Failed asserting that the page contains ’with Lethargy and Animosity’
 - My test passing
 
-From now on, while adding all the other fields in the show.blade.php, Adam keeps getting errors to indicate which fields are still missing, while my test passes without having to add anything
+From now on, while adding all the other fields in the show.blade.php, Adam keeps getting errors to indicate which fields are still missing, while my test passes without having to add anything.
