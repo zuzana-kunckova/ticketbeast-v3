@@ -2,11 +2,11 @@
 
 Followed instructions until adding the relevant columns to the database (Getting to Green: 07:08). From there on:
 
-My error - `visit()` is an undefined method
-Changed this to `get()`
-New error - `see()` is an undefined method
-Changed to `assertSee()`
-Error: `assertSee()` is an undefined method
+- My error - `visit()` is an undefined method
+- Changed this to `get()`
+- New error - `see()` is an undefined method
+- Changed to `assertSee()`
+- Error: `assertSee()` is an undefined method
 
 Googled around, tried to save `$this->get()` to a `$response` variable, called `assertSee()` on `$response`, no errors.
 
@@ -15,7 +15,7 @@ Added all required columns to the concerts migration table as indicated by the f
 - Adam’s error - A request to [http://localhost/concert/1] failed. Received status code [404]
 - My error: InvalidArgumentException Failed asserting that 404 page contains The Red Chord
 
-Added new Route and pointed it to `ConcertsController@show`.
+Added new Route and pointed it to `ConcertsController@show`
 
 - Adam’s error - ConcertsController does not exist
 - My test passes.
